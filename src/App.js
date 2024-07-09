@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header.js';
+import Meme from './Meme.js';
+// import Example from './Testrun.js';
+// import Instance from './Another.js';
+// import Count from './Count.js'
+// import Apicall from './Apicall';
+import WindowTracker from './WindowTracker';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Meme />
+      {/* <Example /> */}
+      {/* <Instance /> */}
+      {/* <Apicall /> */}
+      <WindowTracker />
     </div>
-  );
+  )
 }
 
 export default App;
